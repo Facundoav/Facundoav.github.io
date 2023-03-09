@@ -1,53 +1,58 @@
-<!Doctype html PUBLIC">
 <html> <head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
-<title>Tu curriculum vitae (CV)</title>
-<link href="cv.css" rel="stylesheet" type="text/css"/>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+	<title>Tu curriculum vitae (CV)</title>
+	<link href="cv.css" rel="stylesheet" type="text/css"/>
 	<link rel="icon" href="6614677.png">
 
 </head><body>
 <nav>
-	<p>secciones:</p>
+	<p>Seccion:</p>
 					<a href="cv.html"><input type="submit" value="Datos"></a>
-					<a href="cvf2.html"><input type="submit" value="Conocimiento"></a>
-					<a href="cvf3.html"><input type="submit" value="Educacion"></a>
-    
+					    
     <form action="cvf2.html" method="post">
 	<div class="box">
 		<section id="section-1">
-		<div class="form">
+		<div class="form">		
+			<div class="contenedor">
 			<h1>datos personales</h1>
 			<div class="inputBox">
+				<ion-icon name="accessibility-outline"></ion-icon>
 				<input type="text" name="Nombre" required>
 				<span>Nombre y apellido</span>
 				<i></i>				
 			</div>
 			<div class="inputBox">
+				<ion-icon name="construct-outline"></ion-icon>
 				<input type="text" required>
 				<span>Se postula para:</span>
 				<i></i>				
 			</div>
-	<div class="inputBox">		
-			<input type="date" value="actual" min="1999-01-01" max="2039-12-31" id="Fecha" name="Fecha" required>
+	<div class="inputBox">
+	<ion-icon name="calendar-outline"></ion-icon>		
+			<input type="date" value="actual" min="1999-01-01" max="9999-12-32" id="Fecha" name="Fecha" required>
 			<span>Fecha de nacimiento</span>
 			<i></i>
 		</div>
 	<div class="inputBox">
+		<ion-icon name="phone-portrait-outline"></ion-icon>
 		<input type="number" required >
 		<span>numero de telefono</span>
 		<i></i>
 		</div>
 	<div class="inputBox">
+		<ion-icon name="mail-outline"></ion-icon>
 		<input type="email" id="mail" name="mail" required>
 		<span>E-mail</span>
 		<i></i>
 	</div>
 	<div class="inputBox">
+		<ion-icon name="compass-outline"></ion-icon>
 		<input type="text" required>
 		<span>Direccion y localidad</span>
 		<i></i>
 	</div>
 	<div class="inputBox">
+		<ion-icon name="build-outline"></ion-icon>
 		<input type="text" required>
 		<span>cargo actual</span>
 		<i></i>
@@ -57,7 +62,10 @@
 </section>
 <script type="cv.js"></script>
 </div>
+</div>	
 </nav>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
